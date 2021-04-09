@@ -1,4 +1,4 @@
-export NVIM="~/.config/nvim"
+export NVIM="$HOME/.config/nvim"
 export PATH=$PATH:/usr/local/go/bin
 export PATH="$PATH:~/.local/bin"
 export GOPATH=$(go env GOPATH)
