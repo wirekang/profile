@@ -14,6 +14,5 @@ alias gitp="git push"
 alias gitb="git branch"
 alias gitd="git diff"
 
-
-export PS1="╔═══ \u \e[1;32m\w\e[0m$(__git_ps1)\n╚═ "
+export PS1="╔═══ \u \e[1;32m\w\e[0m \$(__git_ps1 '(%s)')\n╚═ "
 PROMPT_COMMAND="export PROMPT_COMMAND=echo"
