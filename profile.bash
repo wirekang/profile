@@ -11,6 +11,10 @@ export PATH="$PATH:$(yarn global bin)"
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$PATH:$JAVA_HOME/bin
 
+export ANDROID_HOME=~/Android
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
 alias ports='sudo netstat -antp | grep LISTEN'
 alias gits="git status"
 alias gita="git add"
