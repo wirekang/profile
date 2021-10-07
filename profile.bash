@@ -1,11 +1,15 @@
-export NVIM="$HOME/.config/nvim"
-export PATH=$PATH:/usr/local/go/bin
 export PATH="$PATH:~/.local/bin"
+
+export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$(go env GOPATH)
 export GOROOT=$(go env GOROOT)
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
+
 export PATH="$PATH:$(yarn global bin)"
+
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+export PATH=$PATH:$JAVA_HOME/bin
 
 alias ports='sudo netstat -antp | grep LISTEN'
 alias gits="git status"
